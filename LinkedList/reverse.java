@@ -2,7 +2,7 @@ package LinkedList;
 
 import java.lang.classfile.instruction.ThrowInstruction;
 
-public class Allthebasicstogether {
+public class reverse {
     Node head;
     private int size;
     class Node{
@@ -121,7 +121,7 @@ public class Allthebasicstogether {
     }
 
     public static void main(String[] args) {
-        reverse list = new reverse();
+        Allthebasicstogether list = new Allthebasicstogether();
         list.addfirst("Ishan");
         list.addfirst("I am");
 
@@ -143,9 +143,9 @@ public class Allthebasicstogether {
 
         list.reverselist();
         list.printlist();
-        
-        list.head = list.reverserecursive(list.head);
-        list.printlist();
+
+       list.head = list.reverserecursive(list.head);
+       list.printlist();
     }
     
 }
