@@ -1,5 +1,5 @@
 package Stack;
-
+// using array
 public class Buildstack {
     private int[] A;
     private int top;
